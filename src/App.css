@@ -1,0 +1,36 @@
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+.box {
+  display: grid;
+  grid-template:
+    "a b c"
+    "d e f"
+    "g h i";
+  ;
+  grid-gap: 1rem;
+}
+.box-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border: 2px solid rgb(255, 196, 3);
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.info > button {
+  height: 30px;
+  width: 200px;
+}
+.box-player1 {
+  background-color: blue;
+}
+.box-player2 {
+  background-color: red;
+}
